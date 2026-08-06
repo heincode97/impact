@@ -1,0 +1,511 @@
+*:focus {
+  outline: none;
+}
+
+body,
+html {
+  width: 100%;
+}
+
+html {
+  font-family: $font_secondary;
+  font-size: 16px;
+  font-style: normal;
+  color: $color_text;
+  background-color: $color_white;
+}
+
+body {
+  font-family: $font_secondary;
+  font-size: 16px;
+  line-height: 1.75;
+  font-style: normal;
+  color: $color_text;
+  overflow-x: hidden;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  background-color: #FFF;
+}
+
+a {
+  img {
+    &.aligncenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &.alignnone {
+      margin: 5px 20px 20px 0;
+    }
+
+    &.alignright {
+      float: right;
+      margin: 5px 0 20px 20px;
+    }
+
+    &.alignleft {
+      float: left;
+      margin: 5px 20px 20px 0;
+    }
+  }
+}
+
+// ========================================
+// SPACING CONFIG
+// ========================================
+
+$padding-spacing: (
+  sm: 24px,
+  md: 40px,
+  lg: 55px,
+  xl: 80px,
+  xxl: 108px,
+  mobile: 40px
+);
+
+$margin-spacing: (
+  sm: 24px,
+  md: 40px,
+  lg: 55px,
+  xl: 80px,
+  xxl: 108px,
+  mobile: 40px
+);
+
+// ========================================
+// MOBILE BREAKPOINT
+// ========================================
+
+@mixin mobile {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+// ========================================
+// Tablet BREAKPOINT
+// ========================================
+
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+// ========================================
+// Tablet BREAKPOINT
+// ========================================
+
+@mixin laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+// ========================================
+// MIXINS
+// ========================================
+
+// All Padding
+@mixin padding($desktop, $mobile: mobile) {
+  padding: map-get($padding-spacing, $desktop);
+
+  @include mobile {
+    padding: map-get($padding-spacing, $mobile);
+  }
+}
+
+// Vertical Padding
+@mixin padding-vertical($desktop, $mobile: mobile) {
+  padding-top: map-get($padding-spacing, $desktop);
+  padding-bottom: map-get($padding-spacing, $desktop);
+
+  @include mobile {
+    padding-top: map-get($padding-spacing, $mobile);
+    padding-bottom: map-get($padding-spacing, $mobile);
+  }
+}
+
+// Horizonal Padding
+@mixin padding-horizontal($desktop, $mobile: mobile) {
+  padding-left: map-get($padding-spacing, $desktop);
+  padding-right: map-get($padding-spacing, $desktop);
+
+  @include mobile {
+    padding-left: map-get($padding-spacing, $mobile);
+    padding-right: map-get($padding-spacing, $mobile);
+  }
+}
+
+// Top Padding
+@mixin padding-top($desktop, $mobile: mobile) {
+  padding-top: map-get($padding-spacing, $desktop);
+
+  @include mobile {
+    padding-top: map-get($padding-spacing, $mobile);
+  }
+}
+
+// Bottom Padding
+@mixin padding-bottom($desktop, $mobile: mobile) {
+  padding-bottom: map-get($padding-spacing, $desktop);
+
+  @include mobile {
+    padding-bottom: map-get($padding-spacing, $mobile);
+  }
+}
+
+// ========================================
+// UTILITIES
+// ========================================
+
+// All Sides
+.p {
+  &-sm {
+    @include padding(sm);
+  }
+
+  &-md {
+    @include padding(md);
+  }
+
+  &-lg {
+    @include padding(lg);
+  }
+
+  &-xl {
+    @include padding(xl);
+  }
+
+  &-xxl {
+    @include padding(xxl);
+  }
+}
+
+// Vertical
+.pd {
+  &-sm {
+    @include padding-vertical(sm);
+  }
+
+  &-md {
+    @include padding-vertical(md);
+  }
+
+  &-lg {
+    @include padding-vertical(lg);
+  }
+
+  &-xl {
+    @include padding-vertical(xl);
+  }
+
+  &-xxl {
+    @include padding-vertical(xxl);
+  }
+}
+
+// Horizontal
+.px {
+  &-sm {
+    @include padding-horizontal(sm);
+  }
+
+  &-md {
+    @include padding-horizontal(md);
+  }
+
+  &-lg {
+    @include padding-horizontal(lg);
+  }
+
+  &-xl {
+    @include padding-horizontal(xl);
+  }
+
+  &-xxl {
+    @include padding-horizontal(xxl);
+  }
+}
+
+// Top
+.pt {
+  &-sm {
+    @include padding-top(sm);
+  }
+
+  &-md {
+    @include padding-top(md);
+  }
+
+  &-lg {
+    @include padding-top(lg);
+  }
+
+  &-xl {
+    @include padding-top(xl);
+  }
+
+  &-xxl {
+    @include padding-top(xxl);
+  }
+}
+
+// Bottom
+.pb {
+  &-sm {
+    @include padding-bottom(sm);
+  }
+
+  &-md {
+    @include padding-bottom(md);
+  }
+
+  &-lg {
+    @include padding-bottom(lg);
+  }
+
+  &-xl {
+    @include padding-bottom(xl);
+  }
+
+  &-xxl {
+    @include padding-bottom(xxl);
+  }
+}
+
+// ========================================
+// MARGIN MIXINS
+// ========================================
+
+// All Margin
+@mixin margin($desktop, $mobile: mobile) {
+  margin: map-get($margin-spacing, $desktop);
+
+  @include mobile {
+    margin: map-get($margin-spacing, $mobile);
+  }
+}
+
+// Vertical Margin
+@mixin margin-vertical($desktop, $mobile: mobile) {
+  margin-top: map-get($margin-spacing, $desktop);
+  margin-bottom: map-get($margin-spacing, $desktop);
+
+  @include mobile {
+    margin-top: map-get($margin-spacing, $mobile);
+    margin-bottom: map-get($margin-spacing, $mobile);
+  }
+}
+
+// Horizontal Margin
+@mixin margin-horizontal($desktop, $mobile: mobile) {
+  margin-left: map-get($margin-spacing, $desktop);
+  margin-right: map-get($margin-spacing, $desktop);
+
+  @include mobile {
+    margin-left: map-get($margin-spacing, $mobile);
+    margin-right: map-get($margin-spacing, $mobile);
+  }
+}
+
+// Top Margin
+@mixin margin-top($desktop, $mobile: mobile) {
+  margin-top: map-get($margin-spacing, $desktop);
+
+  @include mobile {
+    margin-top: map-get($margin-spacing, $mobile);
+  }
+}
+
+// Bottom Margin
+@mixin margin-bottom($desktop, $mobile: mobile) {
+  margin-bottom: map-get($margin-spacing, $desktop);
+
+  @include mobile {
+    margin-bottom: map-get($margin-spacing, $mobile);
+  }
+}
+
+// ========================================
+// UTILITIES
+// ========================================
+
+// All Sides
+.m {
+  &-sm {
+    @include margin(sm);
+  }
+
+  &-md {
+    @include margin(md);
+  }
+
+  &-lg {
+    @include margin(lg);
+  }
+
+  &-xl {
+    @include margin(xl);
+  }
+
+  &-xxl {
+    @include margin(xxl);
+  }
+}
+
+// Vertical
+.md {
+  &-sm {
+    @include margin-vertical(sm);
+  }
+
+  &-md {
+    @include margin-vertical(md);
+  }
+
+  &-lg {
+    @include margin-vertical(lg);
+  }
+
+  &-xl {
+    @include margin-vertical(xl);
+  }
+
+  &-xxl {
+    @include margin-vertical(xxl);
+  }
+}
+
+// Horizontal
+.mx {
+  &-sm {
+    @include margin-horizontal(sm);
+  }
+
+  &-md {
+    @include margin-horizontal(md);
+  }
+
+  &-lg {
+    @include margin-horizontal(lg);
+  }
+
+  &-xl {
+    @include margin-horizontal(xl);
+  }
+
+  &-xxl {
+    @include margin-horizontal(xxl);
+  }
+}
+
+// Top
+.mt {
+  &-sm {
+    @include margin-top(sm);
+  }
+
+  &-md {
+    @include margin-top(md);
+  }
+
+  &-lg {
+    @include margin-top(lg);
+  }
+
+  &-xl {
+    @include margin-top(xl);
+  }
+
+  &-xxl {
+    @include margin-top(xxl);
+  }
+}
+
+// Bottom
+.mb {
+  &-sm {
+    @include margin-bottom(sm);
+  }
+
+  &-md {
+    @include margin-bottom(md);
+  }
+
+  &-lg {
+    @include margin-bottom(lg);
+  }
+
+  &-xl {
+    @include margin-bottom(xl);
+  }
+
+  &-xxl {
+    @include margin-bottom(xxl);
+  }
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  text-align: center;
+  padding: 5px 3px 10px;
+
+  img {
+    border: 0 none;
+    height: auto;
+    max-width: 98.5%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    &.wp-caption-text {
+      font-size: 11px;
+      line-height: 17px;
+      margin: 0;
+      padding: 0 4px 5px;
+    }
+  }
+
+  &.alignright {
+    margin: 5px 0 20px 20px;
+  }
+
+  &.alignnone {
+    margin: 5px 20px 20px 0;
+  }
+
+  &.alignleft {
+    margin: 5px 20px 20px 0;
+  }
+}
+
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+  display: block;
+  margin: 5px auto;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+.text-primary {
+  color: $color_primary !important;
+}

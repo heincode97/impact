@@ -1,0 +1,184 @@
+.language-switcher {
+  display: none;
+}
+
+.login {
+  background: linear-gradient(45deg, #008080, #43e1b0, #97fcdc);
+  background-image: url('../images/login-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.login h1 a {
+  width: 100%;
+  max-width: 250px;
+  height: 100px;
+  margin: 0 auto;
+  background-size: contain;
+  background-position: center center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.login #nav, .login #backtoblog {
+  text-align: center;
+  margin: 0 0 6px;
+  padding: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.login #nav a, .login #backtoblog a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.login #nav a:hover, .login #backtoblog a:hover {
+  color: #222222;
+}
+
+#login {
+  width: calc(100% - 48px);
+  margin: 0;
+  padding: 32px 24px;
+  min-height: calc(100vh - 64px);
+  background-color: #FFF;  
+}
+
+@media only screen and (min-width: 768px) {
+  #login {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 0;
+    float: right;
+  }
+}
+
+#login .notice {
+  margin: 32px auto;
+  max-width: 372px;
+  width: calc(100% - 28px);
+  border-radius: 4px;
+  color: #fff;
+  border-left: 4px solid #72aee6;
+  background-color: #397bb8;
+}
+
+#login #login-message {
+  border-left-color: #01c131;
+  background-color: #05992a;
+}
+
+#login #login_error {
+  background-color: #782730;
+  border-left-color: #d63638;
+}
+
+.login form {
+  background: transparent;
+  padding: 0;
+  border: none;
+  color: #000000;
+  margin-bottom: 32px;
+  margin: 32px auto;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: none;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.login form input[type='text'], .login form input[type='email'], .login form input[type='password'] {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  color: #000000;
+  font-size: 16px;
+  min-height: 54px;
+}
+
+.login form input[type='text']:focus, .login form input[type='email']:focus, .login form input[type='password']:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.login form label {
+  color: #000000;
+}
+
+.login form .submit .button {
+  font-size: 16px;
+  padding: 5px 30px;
+  background-color: #000000;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.login form .submit .button:hover {
+  background-color: #222222;
+}
+
+.login form .button.wp-hide-pw {
+  min-height: 54px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.profile-php .user-rich-editing-wrap,
+.profile-php .user-syntax-highlighting-wrap,
+.profile-php .user-admin-color-wrap,
+.profile-php .user-comment-shortcuts-wrap,
+.profile-php .user-language-wrap,
+.profile-php .user-display-name-wrap,
+.profile-php .yoast-settings, 
+.profile-php .application-passwords, 
+.profile-php .user-url-wrap,
+.profile-php .user-facebook-wrap,
+.profile-php .user-instagram-wrap,
+.profile-php .user-linkedin-wrap,
+.profile-php .user-myspace-wrap,
+.profile-php .user-pinterest-wrap,
+.profile-php .user-soundcloud-wrap,
+.profile-php .user-tumblr-wrap,
+.profile-php .user-twitter-wrap,
+.profile-php .user-youtube-wrap,
+.profile-php .user-wikipedia-wrap,
+.profile-php .user-description-wrap {display:none}
+
+.user-edit-php .user-rich-editing-wrap,
+.user-edit-php .user-syntax-highlighting-wrap,
+.user-edit-php .user-admin-color-wrap,
+.user-edit-php .user-comment-shortcuts-wrap,
+.user-edit-php .user-language-wrap,
+.user-edit-php .user-display-name-wrap,
+.user-edit-php .yoast-settings, 
+.user-edit-php .application-passwords, 
+.user-edit-php .user-url-wrap,
+.user-edit-php .user-facebook-wrap,
+.user-edit-php .user-instagram-wrap,
+.user-edit-php .user-linkedin-wrap,
+.user-edit-php .user-myspace-wrap,
+.user-edit-php .user-pinterest-wrap,
+.user-edit-php .user-soundcloud-wrap,
+.user-edit-php .user-tumblr-wrap,
+.user-edit-php .user-twitter-wrap,
+.user-edit-php .user-youtube-wrap,
+.user-edit-php .user-wikipedia-wrap,
+.user-edit-php .user-description-wrap {display:none}

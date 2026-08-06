@@ -1,0 +1,351 @@
+0000.000 (0) Opened log file at time: Mon, 29 Jun 2026 05:25:33 +0000 on https://impact.dev.myanmarcafe.trade/wp
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.5 WP: 7.0 PHP: 8.5.7 (litespeed, Linux vmi2267163.contaboserver.net 5.15.0-170-generic #180-Ubuntu SMP Fri Jan 9 16:10:31 UTC 2026 x86_64) MySQL: 10.11.18-MariaDB-ubu2204 (max packet size=67108864) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8M | 14M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.021 (0) Free space on disk containing Updraft's temporary directory: 165175.4 MB
+0000.036 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.040 (0) Semaphore (fd, im_options) being initialised
+0000.044 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.046 (0) Set semaphore last lock (fd) time to 2026-06-29 05:25:33
+0000.047 (0) Semaphore lock (fd) complete
+0000.050 (0) Backup run: resumption=0, nonce=29cd5b5318f7, file_nonce=29cd5b5318f7 begun at=1782710733 (0s ago), job type=backup
+0000.051 (0) Scheduling a resumption (1) after 300 seconds (1782711033) in case this run gets aborted
+0000.075 (0) Checking if we have a zip executable available
+0000.076 (0) Creation of backups of directories: beginning
+0000.081 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.682 (0) Total entities for the zip file: 1737 directories, 7924 files (0 skipped as non-modified), 153.3 MB
+0002.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.751 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 100 files added (on-disk size: 303.6 KB)
+0002.773 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 200 files added (on-disk size: 303.6 KB)
+0002.820 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 300 files added (on-disk size: 303.6 KB)
+0002.845 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 400 files added (on-disk size: 303.6 KB)
+0002.967 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 500 files added (on-disk size: 303.6 KB)
+0003.003 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 600 files added (on-disk size: 303.6 KB)
+0003.235 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 700 files added (on-disk size: 303.6 KB)
+0003.263 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 800 files added (on-disk size: 303.6 KB)
+0003.716 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 900 files added (on-disk size: 303.6 KB)
+0003.777 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1000 files added (on-disk size: 303.6 KB)
+0003.789 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14 MB, 7924 files batched, 1001 (1002) added so far); re-opening (prior size: 303.6 KB)
+0007.051 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1100 files added (on-disk size: 3383 KB)
+0007.070 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1200 files added (on-disk size: 3383 KB)
+0007.083 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1300 files added (on-disk size: 3383 KB)
+0007.100 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1400 files added (on-disk size: 3383 KB)
+0007.113 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1500 files added (on-disk size: 3383 KB)
+0007.131 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1600 files added (on-disk size: 3383 KB)
+0007.147 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1700 files added (on-disk size: 3383 KB)
+0007.165 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1800 files added (on-disk size: 3383 KB)
+0007.195 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 1900 files added (on-disk size: 3383 KB)
+0007.218 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2000 files added (on-disk size: 3383 KB)
+0007.219 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.2 MB, 7924 files batched, 1001 (2003) added so far); re-opening (prior size: 3383 KB)
+0008.556 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2100 files added (on-disk size: 6793.8 KB)
+0008.576 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2200 files added (on-disk size: 6793.8 KB)
+0008.596 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2300 files added (on-disk size: 6793.8 KB)
+0008.629 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2400 files added (on-disk size: 6793.8 KB)
+0008.652 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2500 files added (on-disk size: 6793.8 KB)
+0008.681 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2600 files added (on-disk size: 6793.8 KB)
+0008.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 7924 files batched, 626 (2629) added so far); re-opening (prior size: 6793.8 KB)
+0011.326 (0) A useful amount of data was added after this amount of zip processing: 3 s (normalised: 3 s, rate: 8548.7 KB/s)
+0011.330 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.0187358856201, normalised_time=2.9946163065964, max_time=11.327301025391, data points known=1, old_max_bytes=26214400, new_max_bytes=59494446)
+0011.355 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2700 files added (on-disk size: 13893 KB)
+0011.374 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2800 files added (on-disk size: 13893 KB)
+0011.391 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 2900 files added (on-disk size: 13893 KB)
+0011.440 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3000 files added (on-disk size: 13893 KB)
+0011.468 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3100 files added (on-disk size: 13893 KB)
+0011.558 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3200 files added (on-disk size: 13893 KB)
+0011.647 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3300 files added (on-disk size: 13893 KB)
+0011.780 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3400 files added (on-disk size: 13893 KB)
+0011.848 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3500 files added (on-disk size: 13893 KB)
+0011.870 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3600 files added (on-disk size: 13893 KB)
+0011.878 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (41.9 MB, 7924 files batched, 1001 (3630) added so far); re-opening (prior size: 13893 KB)
+0015.479 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3700 files added (on-disk size: 25000 KB)
+0015.498 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3800 files added (on-disk size: 25000 KB)
+0015.527 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 3900 files added (on-disk size: 25000 KB)
+0015.546 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4000 files added (on-disk size: 25000 KB)
+0015.562 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4100 files added (on-disk size: 25000 KB)
+0015.587 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4200 files added (on-disk size: 25000 KB)
+0015.605 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4300 files added (on-disk size: 25000 KB)
+0015.626 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4400 files added (on-disk size: 25000 KB)
+0015.643 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4500 files added (on-disk size: 25000 KB)
+0015.664 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4600 files added (on-disk size: 25000 KB)
+0015.672 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.4 MB, 7924 files batched, 1001 (4631) added so far); re-opening (prior size: 25000 KB)
+0017.579 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4700 files added (on-disk size: 27930.5 KB)
+0017.603 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4800 files added (on-disk size: 27930.5 KB)
+0017.644 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 4900 files added (on-disk size: 27930.5 KB)
+0017.683 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5000 files added (on-disk size: 27930.5 KB)
+0017.707 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5100 files added (on-disk size: 27930.5 KB)
+0017.729 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5200 files added (on-disk size: 27930.5 KB)
+0017.755 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5300 files added (on-disk size: 27930.5 KB)
+0017.801 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5400 files added (on-disk size: 27930.5 KB)
+0017.845 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5500 files added (on-disk size: 27930.5 KB)
+0017.898 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5600 files added (on-disk size: 27930.5 KB)
+0017.915 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.4 MB, 7924 files batched, 1001 (5632) added so far); re-opening (prior size: 27930.5 KB)
+0021.111 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5700 files added (on-disk size: 33912.2 KB)
+0021.133 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5800 files added (on-disk size: 33912.2 KB)
+0021.150 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 5900 files added (on-disk size: 33912.2 KB)
+0021.166 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6000 files added (on-disk size: 33912.2 KB)
+0021.191 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6100 files added (on-disk size: 33912.2 KB)
+0021.211 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6200 files added (on-disk size: 33912.2 KB)
+0021.229 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6300 files added (on-disk size: 33912.2 KB)
+0021.259 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6400 files added (on-disk size: 33912.2 KB)
+0021.277 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6500 files added (on-disk size: 33912.2 KB)
+0021.299 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6600 files added (on-disk size: 33912.2 KB)
+0021.316 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.6 MB, 7924 files batched, 1001 (6633) added so far); re-opening (prior size: 33912.2 KB)
+0022.169 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6700 files added (on-disk size: 34949.9 KB)
+0022.186 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6800 files added (on-disk size: 34949.9 KB)
+0022.208 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 6900 files added (on-disk size: 34949.9 KB)
+0022.223 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7000 files added (on-disk size: 34949.9 KB)
+0022.238 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7100 files added (on-disk size: 34949.9 KB)
+0022.253 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7200 files added (on-disk size: 34949.9 KB)
+0022.271 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7300 files added (on-disk size: 34949.9 KB)
+0022.290 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7400 files added (on-disk size: 34949.9 KB)
+0022.317 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7500 files added (on-disk size: 34949.9 KB)
+0022.335 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7600 files added (on-disk size: 34949.9 KB)
+0022.342 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.3 MB, 7924 files batched, 1001 (7634) added so far); re-opening (prior size: 34949.9 KB)
+0024.431 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7700 files added (on-disk size: 39887.5 KB)
+0024.449 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7800 files added (on-disk size: 39887.5 KB)
+0024.497 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.tmp: 7900 files added (on-disk size: 39887.5 KB)
+0026.985 (0) Creating zip file manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.list-temp.tmp)
+0027.015 (0) Successfully created zip file manifest (size: 684035)
+0027.214 (0) Created plugins zip (0) - 43897.8 KB in 27.1 s (1618.2 KB/s) (sha1: 95434925337a3cd334e615b287cc922bd479298e, sha256: 29960d88a7e8ab822f096446566f6a28d54545369e6a236c9ab703d7008ee32b)
+0027.225 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0027.227 (0) No remote despatch: user chose no remote backup service
+0027.230 (0) Recording as successfully uploaded: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip
+0027.233 (0) Deleting zip manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip.list.tmp)
+0027.243 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0027.246 (0) Number of backup sets in history: 0; groups (db): 1
+0027.247 (0) Number of backup sets in history: 0; groups (files): 1
+0027.248 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0027.284 (0) Beginning creation of dump of themes (split every: 400 MB)
+0027.424 (0) Total entities for the zip file: 38 directories, 306 files (0 skipped as non-modified), 11 MB
+0027.445 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.461 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0027.482 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0030.027 (0) Creating zip file manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-themes.zip.list-temp.tmp)
+0030.029 (0) Successfully created zip file manifest (size: 20968)
+0030.075 (0) Created themes zip (0) - 9615.3 KB in 2.8 s (3487.1 KB/s) (sha1: 77716f325c8e9746efbb05f4a99b94656530ace4, sha256: 14f22cb5d79f3dbfd41c6b6be7e5ef6109d20baccea53fdcadd7a3dc98a7ed2f)
+0030.095 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.097 (0) No remote despatch: user chose no remote backup service
+0030.101 (0) Recording as successfully uploaded: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-themes.zip
+0030.105 (0) Deleting zip manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-themes.zip.list.tmp)
+0030.112 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0030.124 (0) Number of backup sets in history: 0; groups (db): 1
+0030.132 (0) Number of backup sets in history: 0; groups (files): 1
+0030.136 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0030.147 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0030.148 (0) Looking for candidates to backup in: /home/digitaldots/webapps/impact/web/app/uploads
+0030.155 (0) finding files: elementor: adding to list (1)
+0030.163 (0) finding files: 2026: adding to list (2)
+0030.170 (0) finding files: .gitkeep: adding to list (3)
+0030.175 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0030.293 (0) Total entities for the zip file: 7 directories, 201 files (0 skipped as non-modified), 37.1 MB
+0030.308 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.336 (0) Zip: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0031.297 (0) Creating zip file manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-uploads.zip.list-temp.tmp)
+0031.301 (0) Successfully created zip file manifest (size: 12070)
+0031.449 (0) Created uploads zip (0) - 38022.9 KB in 1.3 s (30055.5 KB/s) (sha1: 5d1f702a45a24ebe675ecc730aa1d8f1a9ddad44, sha256: 6fe34c08de71ef1557d527c1fe7da45416789a61de368c904edd08275990f0be)
+0031.454 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0031.455 (0) No remote despatch: user chose no remote backup service
+0031.456 (0) Recording as successfully uploaded: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-uploads.zip
+0031.459 (0) Deleting zip manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-uploads.zip.list.tmp)
+0031.462 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0031.464 (0) Number of backup sets in history: 0; groups (db): 1
+0031.465 (0) Number of backup sets in history: 0; groups (files): 1
+0031.465 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0031.472 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0031.476 (0) Total entities for the zip file: 2 directories, 7 files (0 skipped as non-modified), 0 MB
+0031.482 (0) Creating zip file manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-mu-plugins.zip.list-temp.tmp)
+0031.483 (0) Successfully created zip file manifest (size: 443)
+0031.489 (0) Created mu-plugins zip (0) - 4.5 KB in 0 s (298.7 KB/s) (sha1: 72c3aaef452e78a13148bd54e45c426be5cb0e3e, sha256: 7b2d736bf1ea472b9076003f543c400c841f2f57c5ddd5dd81ec3e752a491df8)
+0031.493 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0031.493 (0) No remote despatch: user chose no remote backup service
+0031.496 (0) Recording as successfully uploaded: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-mu-plugins.zip
+0031.498 (0) Deleting zip manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-mu-plugins.zip.list.tmp)
+0031.502 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0031.503 (0) Number of backup sets in history: 0; groups (db): 1
+0031.504 (0) Number of backup sets in history: 0; groups (files): 1
+0031.505 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0031.513 (0) Beginning backup of other directories found in the content directory (index: 0)
+0031.515 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0031.516 (0) Looking for candidates to backup in: /home/digitaldots/webapps/impact/web/app
+0031.518 (0) finding files: upgrade: skipping: excluded by options
+0031.518 (0) finding files: themes: skipping: this is the themes directory
+0031.520 (0) finding files: updraft: skipping: this is the updraft directory
+0031.521 (0) finding files: angie-snippets: adding to list (1)
+0031.522 (0) finding files: uploads: skipping: this is the uploads directory
+0031.523 (0) finding files: plugins: skipping: this is the plugins directory
+0031.524 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0031.530 (0) Total entities for the zip file: 4 directories, 5 files (0 skipped as non-modified), 0 MB
+0031.541 (0) Creating zip file manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-others.zip.list-temp.tmp)
+0031.542 (0) Successfully created zip file manifest (size: 316)
+0031.549 (0) Created others zip (0) - 5.3 KB in 0 s (243.8 KB/s) (sha1: be46dbab1aeedcb8d6a3bf69ba4fdd3f4b212b64, sha256: e630bed42fac5f71b6f4a2b091346badff1f62663f33e6add9385cf02e572d4a)
+0031.553 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0031.554 (0) No remote despatch: user chose no remote backup service
+0031.555 (0) Recording as successfully uploaded: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-others.zip
+0031.557 (0) Deleting zip manifest (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-others.zip.list.tmp)
+0031.562 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0031.564 (0) Number of backup sets in history: 0; groups (db): 1
+0031.566 (0) Number of backup sets in history: 0; groups (files): 1
+0031.567 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0031.578 (0) Saving backup status to database (elements: 10)
+0031.580 (0) Beginning creation of database dump (WordPress DB)
+0031.582 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0031.626 (0) Table im_options: Total expected rows (via COUNT): 348
+0031.628 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.728 (0) Table im_options: Rows added in this batch (next record: 53956): 344 (uncompressed bytes in this segment=2046232) in 0.11 seconds
+0031.736 (0) Table im_options: finishing file(s) (2, 360.5 KB)
+0031.750 (0) Table im_users: Total expected rows (via COUNT): 1
+0031.751 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.754 (0) Table im_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1202) in 0.01 seconds
+0031.760 (0) Table im_users: finishing file(s) (2, 0.6 KB)
+0031.766 (0) Table im_usermeta: Total expected rows (via COUNT): 35
+0031.767 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.771 (0) Table im_usermeta: Rows added in this batch (next record: 67): 35 (uncompressed bytes in this segment=6632) in 0.01 seconds
+0031.779 (0) Table im_usermeta: finishing file(s) (2, 3.1 KB)
+0031.795 (0) Table im_commentmeta: Total expected rows (via COUNT): 0
+0031.800 (0) Table im_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.02 seconds
+0031.805 (0) Table im_commentmeta: finishing file(s) (2, 0.4 KB)
+0031.810 (0) Table im_comments: Total expected rows (via COUNT): 1
+0031.811 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0031.816 (0) Table im_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1882) in 0.01 seconds
+0031.820 (0) Table im_comments: finishing file(s) (2, 0.7 KB)
+0031.844 (0) Table im_e_notes: Total expected rows (via COUNT): 0
+0031.858 (0) Table im_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1885) in 0.03 seconds
+0031.870 (0) Table im_e_notes: finishing file(s) (2, 0.7 KB)
+0031.902 (0) Table im_e_notes_users_relations: Total expected rows (via COUNT): 0
+0031.904 (0) Table im_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.01 seconds
+0031.911 (0) Table im_e_notes_users_relations: finishing file(s) (2, 0.4 KB)
+0031.939 (0) Table im_links: Total expected rows (via COUNT): 0
+0031.945 (0) Table im_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.02 seconds
+0031.960 (0) Table im_links: finishing file(s) (2, 0.5 KB)
+0035.886 (0) Table im_postmeta: Total expected rows (approximate): 21598
+0040.666 (0) Table im_postmeta: Rows added in this batch (next record: 26284): 18198 (uncompressed bytes in this segment=48916842) in 8.70 seconds
+0040.675 (0) Table im_postmeta: finishing file(s) (2, 2800.6 KB)
+0041.537 (0) Table im_posts: Total expected rows (approximate): 1331
+0041.735 (0) Table im_posts: Rows added in this batch (next record: 2399): 2170 (uncompressed bytes in this segment=16366858) in 1.05 seconds
+0041.741 (0) Table im_posts: finishing file(s) (2, 441.7 KB)
+0041.748 (0) Table im_term_relationships: Total expected rows (approximate): 27
+0041.754 (0) Table im_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1069) in 0.01 seconds
+0041.758 (0) Table im_term_relationships: finishing file(s) (2, 0.5 KB)
+0041.768 (0) Table im_term_taxonomy: Total expected rows (via COUNT): 15
+0041.769 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.772 (0) Table im_term_taxonomy: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1422) in 0.01 seconds
+0041.778 (0) Table im_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0041.833 (0) Table im_termmeta: Total expected rows (via COUNT): 0
+0041.839 (0) Table im_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.01 seconds
+0041.848 (0) Table im_termmeta: finishing file(s) (2, 0.4 KB)
+0041.856 (0) Table im_terms: Total expected rows (via COUNT): 15
+0041.857 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.862 (0) Table im_terms: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1176) in 0.01 seconds
+0041.867 (0) Table im_terms: finishing file(s) (2, 0.6 KB)
+0041.890 (0) Table im_e_events: Total expected rows (via COUNT): 0
+0041.905 (0) Table im_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.02 seconds
+0041.914 (0) Table im_e_events: finishing file(s) (2, 0.3 KB)
+0041.932 (0) Table im_e_submissions: Total expected rows (via COUNT): 3
+0041.934 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.939 (0) Table im_e_submissions: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=3432) in 0.02 seconds
+0041.943 (0) Table im_e_submissions: finishing file(s) (2, 1.1 KB)
+0041.955 (0) Table im_e_submissions_actions_log: Total expected rows (via COUNT): 3
+0041.957 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.958 (0) Table im_e_submissions_actions_log: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1615) in 0.01 seconds
+0041.963 (0) Table im_e_submissions_actions_log: finishing file(s) (2, 0.6 KB)
+0041.992 (0) Table im_e_submissions_values: Total expected rows (via COUNT): 15
+0041.993 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.996 (0) Table im_e_submissions_values: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1451) in 0.02 seconds
+0042.002 (0) Table im_e_submissions_values: finishing file(s) (2, 0.6 KB)
+0042.016 (0) Table im_yoast_expiring_store: Total expected rows (approximate): 0
+0042.022 (0) Table im_yoast_expiring_store: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=539) in 0.01 seconds
+0042.025 (0) Table im_yoast_expiring_store: finishing file(s) (2, 0.3 KB)
+0042.069 (0) Table im_yoast_indexable: Total expected rows (via COUNT): 0
+0042.073 (0) Table im_yoast_indexable: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3251) in 0.04 seconds
+0042.080 (0) Table im_yoast_indexable: finishing file(s) (2, 0.9 KB)
+0042.086 (0) Table im_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0042.090 (0) Table im_yoast_indexable_hierarchy: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=748) in 0.00 seconds
+0042.095 (0) Table im_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0042.114 (0) Table im_yoast_migrations: Total expected rows (via COUNT): 26
+0042.115 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.118 (0) Table im_yoast_migrations: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=1243) in 0.01 seconds
+0042.122 (0) Table im_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0042.136 (0) Table im_yoast_primary_term: Total expected rows (via COUNT): 0
+0042.140 (0) Table im_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0042.145 (0) Table im_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0042.160 (0) Table im_yoast_seo_links: Total expected rows (via COUNT): 0
+0042.164 (0) Table im_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1097) in 0.01 seconds
+0042.170 (0) Table im_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0042.172 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_options.table.tmpr53957.gz (1/24/fopen): adding to final database dump
+0042.177 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_options.table.gz (2/24/fopen): adding to final database dump
+0042.178 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_users.table.tmpr2.gz (3/24/fopen): adding to final database dump
+0042.179 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_users.table.gz (4/24/fopen): adding to final database dump
+0042.180 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_usermeta.table.tmpr68.gz (5/24/fopen): adding to final database dump
+0042.182 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_usermeta.table.gz (6/24/fopen): adding to final database dump
+0042.184 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_commentmeta.table.tmpr0.gz (7/24/fopen): adding to final database dump
+0042.185 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_commentmeta.table.gz (8/24/fopen): adding to final database dump
+0042.187 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_comments.table.tmpr2.gz (9/24/fopen): adding to final database dump
+0042.189 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_comments.table.gz (10/24/fopen): adding to final database dump
+0042.191 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_notes.table.tmpr0.gz (11/24/fopen): adding to final database dump
+0042.193 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_notes.table.gz (12/24/fopen): adding to final database dump
+0042.195 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_notes_users_relations.table.tmpr0.gz (13/24/fopen): adding to final database dump
+0042.199 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_notes_users_relations.table.gz (14/24/fopen): adding to final database dump
+0042.200 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_links.table.tmpr0.gz (15/24/fopen): adding to final database dump
+0042.201 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_links.table.gz (16/24/fopen): adding to final database dump
+0042.201 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_postmeta.table.tmpr26285.gz (17/24/fopen): adding to final database dump
+0042.231 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_postmeta.table.gz (18/24/fopen): adding to final database dump
+0042.232 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_posts.table.tmpr2400.gz (19/24/fopen): adding to final database dump
+0042.237 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_posts.table.gz (20/24/fopen): adding to final database dump
+0042.238 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_term_relationships.table.tmpr100001.gz (21/24/fopen): adding to final database dump
+0042.238 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_term_relationships.table.gz (22/24/fopen): adding to final database dump
+0042.238 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_term_taxonomy.table.tmpr16.gz (23/24/fopen): adding to final database dump
+0042.239 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_term_taxonomy.table.gz (24/24/fopen): adding to final database dump
+0042.240 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_termmeta.table.tmpr0.gz (25/24/fopen): adding to final database dump
+0042.241 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_termmeta.table.gz (26/24/fopen): adding to final database dump
+0042.242 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_terms.table.tmpr16.gz (27/24/fopen): adding to final database dump
+0042.242 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_terms.table.gz (28/24/fopen): adding to final database dump
+0042.243 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_events.table.tmpr0.gz (29/24/fopen): adding to final database dump
+0042.243 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_events.table.gz (30/24/fopen): adding to final database dump
+0042.243 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_submissions.table.tmpr4.gz (31/24/fopen): adding to final database dump
+0042.245 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_submissions.table.gz (32/24/fopen): adding to final database dump
+0042.246 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_submissions_actions_log.table.tmpr4.gz (33/24/fopen): adding to final database dump
+0042.248 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_submissions_actions_log.table.gz (34/24/fopen): adding to final database dump
+0042.249 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_submissions_values.table.tmpr16.gz (35/24/fopen): adding to final database dump
+0042.250 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_e_submissions_values.table.gz (36/24/fopen): adding to final database dump
+0042.250 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_expiring_store.table.tmpr1.gz (37/24/fopen): adding to final database dump
+0042.253 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_expiring_store.table.gz (38/24/fopen): adding to final database dump
+0042.255 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_indexable.table.tmpr0.gz (39/24/fopen): adding to final database dump
+0042.256 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_indexable.table.gz (40/24/fopen): adding to final database dump
+0042.257 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_indexable_hierarchy.table.tmpr1.gz (41/24/fopen): adding to final database dump
+0042.258 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_indexable_hierarchy.table.gz (42/24/fopen): adding to final database dump
+0042.258 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_migrations.table.tmpr27.gz (43/24/fopen): adding to final database dump
+0042.260 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_migrations.table.gz (44/24/fopen): adding to final database dump
+0042.260 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_primary_term.table.tmpr0.gz (45/24/fopen): adding to final database dump
+0042.262 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_primary_term.table.gz (46/24/fopen): adding to final database dump
+0042.262 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_seo_links.table.tmpr0.gz (47/24/fopen): adding to final database dump
+0042.263 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db-table-im_yoast_seo_links.table.gz (48/24/fopen): adding to final database dump
+0042.288 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db.gz: finished writing out complete database file (3617.3 KB)
+0042.321 (0) Total database tables backed up: 24 (backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db.gz, size: 3704198, sha1: cdec9cfa4eedc804d3b240e81e66b51169f064a7, sha256: 6ceaa5599708aa9e764d347edba36ed2c0d3d6495bac527e125c37e136cb12fb)
+0042.331 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-plugins.zip: plugins: This file has already been successfully processed
+0042.332 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-themes.zip: themes: This file has already been successfully processed
+0042.333 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-uploads.zip: uploads: This file has already been successfully processed
+0042.333 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-mu-plugins.zip: mu-plugins: This file has already been successfully processed
+0042.334 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-others.zip: others: This file has already been successfully processed
+0042.334 (0) backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0042.335 (0) Saving backup history. Total backup size: 92.9 MB
+0042.339 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0042.342 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0042.344 (0) No remote despatch: user chose no remote backup service
+0042.345 (0) Recording as successfully uploaded: backup_2026-06-29-1155_Impact_amp_Resilience_Initiati_29cd5b5318f7-db.gz
+0042.349 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0042.351 (0) Number of backup sets in history: 1; groups (db): 1
+0042.351 (0) Examining (for databases) backup set with group_id=0, nonce=29cd5b5318f7, datestamp=1782710733 (Jun 29 2026 05:25:33)
+0042.353 (0) This backup set is the backup set just made, so will not be deleted.
+0042.353 (0) Number of backup sets in history: 1; groups (files): 1
+0042.354 (0) Examining (for files) backup set with nonce=29cd5b5318f7, datestamp=1782710733 (Jun 29 2026 05:25:33)
+0042.355 (0) This backup set is the backup set just made, so will not be deleted.
+0042.356 (0) This backup set is the backup set just made, so will not be deleted.
+0042.356 (0) This backup set is the backup set just made, so will not be deleted.
+0042.356 (0) This backup set is the backup set just made, so will not be deleted.
+0042.356 (0) This backup set is the backup set just made, so will not be deleted.
+0042.356 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.357 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0042.363 (0) Resume backup (29cd5b5318f7, 0): finish run
+0042.369 (0) Decremented the semaphore (fd) by 1
+0042.370 (0) Semaphore (fd) unlocked
+0042.371 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0042.377 (0) No email will/can be sent - the user has not configured an email address.
+0042.377 (0) The backup succeeded and is now complete

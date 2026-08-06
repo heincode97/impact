@@ -1,0 +1,31 @@
+$container-max-widths: (
+  xxl: 1280px,
+  xl: 1140px,
+  lg: 960px,
+  md: 720px,
+  sm: 100%
+);
+
+$breakpoints: (
+  xxl: 1400px,
+  xl: 1200px,
+  lg: 992px,
+  md: 768px,
+  sm: 576px
+);
+
+@mixin make-custom-container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 10px;
+
+  @media (min-width: 768px) and (max-width: 1280px) {
+    padding-inline: 20px;
+  }
+}
+
+.container,
+.custom-container {
+  @include make-custom-container;
+}

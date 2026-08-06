@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@mixin heading($color: $color_secondary,
+  $font-family: $font_primary,
+  $font-size,
+  $letter-spacing: 0,
+  $line-height: 100%,
+  $font-weight: 700,
+  $size: null) {
+  color: $color;
+  font-family: $font-family;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  padding: 0;
+  margin: 0 0 20px;
+  word-break: break-word;
+
+  @if $size =="lg" or $size =="xl" or $size =="xxl" {
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
+  }
+
+  @else if $size =='md' {
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+
+  @else if $size =='sm' {
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+
+  @else if $size =='xs' {
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  @else {
+    @media (max-width: 767px) {
+      font-size: 18px;
+      //       letter-spacing: $letter-spacing * 0.667;
+    }
+  }
+}
+
+h1 {
+  @include heading($font-size: 64px, $size: "xl");
+}
+
+h2 {
+  @include heading($font-size: 46px, $size: "lg");
+}
+
+h3 {
+  @include heading($font-size: 32px, $size: "md");
+}
+
+h4 {
+  @include heading($font-size: 24px, $size: "sm", $font-weight: 600);
+
+  span {
+    color: $color_teal;
+  }
+}
+
+h5 {
+  @include heading($font-size: 20px, $size: "xs");
+}
+
+h6 {
+  text-transform: uppercase;
+  @include heading($font-size: 14px,
+    $font-weight: 600,
+    $font-family: $font_secondary,
+    $size: "xs"
+  );
+}
+
+.heading-xs {
+  @include heading($font-size: 14px);
+}
+
+.heading-sm {
+  @include heading($font-size: 20px);
+}
+
+.heading-normal {
+  @include heading($font-size: 28px);
+}
+
+.heading-md {
+  @include heading($font-size: 32px);
+}
+
+.heading-lg {
+  @include heading($font-size: 40px);
+}
+
+.heading-xl {
+  @include heading($font-size: 64px);
+}
+
+.heading-74 {
+  @include heading($font-size: 74px);
+}
+
+.heading-xxl {
+  @include heading($font-size: 108px);
+}
+
+.head-xxl {
+  @include heading($font-size: 74px);
+}
+
+// TEXT STYLES
+@mixin text($font-family: $font_secondary,
+  $font-size,
+  $line-height: normal,
+  $font-weight: 400,
+  $size: null) {
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  margin: 0 0 20px;
+
+  @if $size =="lg" {
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  @else if $size =="md" {
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+
+  @else if $size =="sm" {
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+
+  @else if $size =="xs" {
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+
+  //   @else {
+  //     @media (max-width: 767px) {
+  //       font-size: $font-size * 0.875;
+  //     }
+  //   }
+}
+
+// Paragraph
+p {
+  @include text($font-size: $text-base,
+    $line-height: 24px);
+}

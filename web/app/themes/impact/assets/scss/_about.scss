@@ -1,0 +1,274 @@
+// Standard icon wrapper with centered SVG
+@mixin icon {
+    width: 52px;
+    height: 52px;
+    background-color: #FBE6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    svg {
+        width: 24px;    
+        height: 24px;
+        transform: translateY(10%);
+    }
+}
+
+// About Us Page Impact Section
+.about-impact {
+    .about-impact-subtitle {
+        padding-inline: 218px;
+        @include laptop {
+            padding-inline: 80px;
+        }
+        @include tablet {
+            padding-inline: 0;
+        }
+        @include mobile {
+            padding-inline: 0;
+        }
+        h2 {
+            line-height: 1.2;
+        }
+    }
+    .chevron-icon {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        svg {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+// About Us Page Vision Mission Section
+.vision-mission {  
+    .card {
+        padding: 48px;
+        @include mobile {padding: 20px;}
+        .card-heading {
+            .icon {
+                @include icon;
+            }
+        }
+        
+        p {
+            color: $color_text;
+            line-height: 24px;
+        }
+    }
+}
+
+// About Us Page Identity Section
+.identity {
+    position: relative;
+    .image-identity {
+        position: absolute;
+        top: 320px;
+        @include mobile {
+            position: static;
+        }
+        
+        @include tablet {
+            position: static;
+        }
+    }
+    .line-container {
+        max-width: 865px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        padding-top: 215px;
+        @include tablet {
+            display: none;
+        }
+        
+        @include mobile {
+            display: none;
+        }
+        
+        .left-segment, .right-segment {
+            flex: 1;
+            border-top: 1px solid $color_primary;
+        }
+        
+        .left-segment {
+            border-left: 1px solid $color_primary;
+            height: 40px;
+            margin-top: 40px;
+            -webkit-mask-image: linear-gradient(to bottom, #b40000 0%, #b40000 50%, transparent 100%);
+            mask-image: linear-gradient(to bottom, #b40000 0%, #b40000 50%, transparent 100%);
+        }
+        
+        .right-segment {
+            border-right: 1px solid $color_primary;
+            height: 40px;
+            margin-top: 40px;
+            -webkit-mask-image: linear-gradient(to bottom, #b40000 0%, #b40000 50%, transparent 100%);
+            mask-image: linear-gradient(to bottom, #b40000 0%, #b40000 50%, transparent 100%);
+        }
+        
+        .center-divider {
+            width: 1px;
+            height: 120px;
+            background-color: $color_primary;
+            -webkit-mask-image: linear-gradient(to bottom, transparent, #b40000 15%, #b40000 85%, transparent);
+            mask-image: linear-gradient(to bottom, transparent, #b40000 15%, #b40000 85%, transparent);
+        }
+    }
+    .card-container {
+        .card {
+            padding: 32px;
+            .icon {
+                @include icon;
+            }
+            p {
+                color: $color_text;
+                line-height: 24px;
+            }
+        }
+    }
+    
+    .end-txt p{
+        color: $color-secondary;
+        font-style: italic;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+// About Us Page Core Value Section
+.core-value {
+    position: relative;
+    .arise {
+        width: 900px;
+        height: 324px;
+        padding: 27px 10px;
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        .text-bg-overlay h1{
+            color: $color_white;
+            opacity: 0.5;
+            font-size: clamp(3rem, 18vw, 270px);
+            letter-spacing: 0.05em;
+        }
+    }
+    
+    .card-container {
+        padding-top: 30px;
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            max-height: 300px;
+            padding: 30px 24px;
+            box-sizing: border-box;
+            overflow: hidden;
+            transition: max-height 0.5s cubic-bezier(0.25, 1, 0.5, 1), background 0.5s ease, color 0.5s ease;
+
+            h5 {
+                color: $color_white;
+                font-family: $font_secondary;
+                font-weight: 600;
+            }
+
+            p {
+                color: $color_white;
+                font-size: $text-sm;
+                line-height: 20px;
+            }
+
+            .first-paragraph {
+                p {
+                    margin-bottom: 30px;
+                    @include mobile {
+                        margin-bottom: 0px;
+                    }
+                    
+                    transition: margin 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: 1px;
+                        background-color: rgba(255, 255, 255, 0.5);
+                        display: inline-block;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: opacity 0.5s ease, visibility 0.5s ease;
+                    }
+                }
+            }
+            
+            .icon {
+                width: 48px;
+                height: 48px;
+                background: rgba(255, 255, 255, 0.3);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+
+                svg {
+                    width: 24px;
+                    height: 24px;
+                    transform: translateY(10%);
+                }
+            }
+
+            &:hover {
+                max-height: 624px;
+                background: $color_primary;
+                color: $color_white;
+
+                .first-paragraph p {
+                    margin: 0;
+
+                    &::after {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+
+            @include mobile {
+                width: 100%;
+                padding: 10px 10px;
+                max-height: 624px;
+            }
+        }
+      // Resillence card default active state
+      .active {
+        max-height: 624px;
+        background: $color_primary;
+        color: $color_white;
+
+        .first-paragraph p {
+            margin: 0;
+
+            &::after {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+      }
+        
+        .card:hover {
+            .active {
+                all: revert;
+            }
+        }
+    }
+}
+     
+@media (max-width: 767px) {
+    .core-value .card-container .card {
+        max-height: 100%;
+    }
+    .core-value .card-container .card .first-paragraph p {
+        margin: 0;
+    }
+}

@@ -1,0 +1,581 @@
+// Sub heading global component
+.sub-heading {
+    margin-bottom: 40px;
+
+    h6 {
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 3px solid $color_primary;
+
+        @include mobile {
+            font-size: 14px;
+        }
+    }
+}
+
+// Call to Action Global component
+.call-to-action {
+    position: relative;
+
+    .funders-wrap {
+        @media (max-width: 1024px) {
+            position: static;
+        }
+
+        .e-con-inner {
+            @media (max-width: 991.98px) {
+                padding: 0;
+            }
+
+            .funders-box {
+                background: rgba(13, 60, 76, 0.9);
+                padding: 40px;
+
+                @media (max-width: 991.98px) {
+                    padding: 50px;
+                }
+
+                h2 {
+                    color: $color_white;
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+
+// CTA News
+.cta-update-news {}
+
+
+/* Custom bullet list */
+.list-style {
+    ul {
+        list-style: none;
+        padding: 0 0 0 4px;
+        margin: 0;
+
+        li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 10px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 14px;
+
+                width: 7px;
+                height: 7px;
+                background: $color_primary;
+                border-radius: 50%;
+                box-shadow: 0 0 0 5px #D6050533;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+// Home Page Hero Section
+.home-hero-slider .elementor-slides .swiper-slide-inner .swiper-slide-contents .elementor-slide-heading {
+    @include heading($font-size: 64px);
+    color: $color_white;
+    text-transform: capitalize;
+    line-height: 1.25;
+
+    span {
+        color: $color_teal;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+}
+
+.elementor-element {
+    .swiper {
+
+        .elementor-swiper-button-prev,
+        .elementor-swiper-button-next {
+            padding: 10px;
+            background-color: transparent;
+            border: 1px solid $color_white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                background-color: $color_primary;
+                color: $color_white;
+                border: none;
+            }
+
+            @include mobile {
+                padding: 5px;
+            }
+        }
+    }
+}
+
+// Home Page What We Do Section
+.what-we-do {
+    .main-heading {
+        padding-bottom: 24px;
+    }
+
+    .card-box,
+    .card-box-no-image {
+        position: relative;
+        overflow: hidden;
+        padding: 50px;
+
+        @media (max-width: 998px) {
+            padding: 40px;
+        }
+
+        .elementor-heading-title {
+            margin: 0;
+            transition: transform .45s ease;
+            color: $color_dark_gray;
+        }
+
+        .elementor-widget-text-editor {
+            position: absolute;
+            left: 50%;
+            width: 85%;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transform: translate(-50%, 20px);
+            transition: opacity .45s ease, transform .45s ease;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        &:hover {
+            .elementor-heading-title {
+                transform: translateY(-80px);
+
+                @media (max-width: 991.98px) {
+                    transform: translateY(-100px);
+                }
+
+                @media (max-width: 767px) {
+                    transform: translateY(-60px);
+                }
+            }
+
+            .elementor-widget-text-editor {
+                opacity: 1;
+                visibility: visible;
+                transform: translate(-50%, 0);
+            }
+        }
+    }
+
+    .card-box {
+        transition: box-shadow .45s ease;
+
+        .elementor-widget-image {
+            transition: opacity .45s ease, transform .45s ease;
+        }
+
+        .elementor-widget-text-editor {
+            top: 58%;
+        }
+
+        &:hover {
+            .elementor-heading-title {
+                color: $color_secondary;
+            }
+
+            .elementor-widget-image {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+        }
+    }
+
+    .card-box-no-image {
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+
+            background: linear-gradient(180deg,
+                    rgba(13, 60, 76, 0) 55.77%,
+                    rgba(13, 60, 76, 0.75) 100%);
+
+            transition: all .4s ease;
+        }
+
+        &:hover::before {
+            background: linear-gradient(180deg,
+                    rgba(13, 60, 76, 0) 37.98%,
+                    rgba(13, 60, 76, 0.9) 100%);
+        }
+
+        .elementor-heading-title {
+            color: $color_white;
+        }
+
+        .elementor-widget-text-editor {
+            top: 0;
+
+            p {
+                color: $color_white;
+            }
+        }
+    }
+}
+
+// Home Page Our Impact Section
+.our-impact {
+    .card {
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .impact-card-title-box {
+            display: flex;
+            align-items: center;
+
+            .elementor-icon-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .left-card-content {
+            p {
+                font-size: $text-sm;
+                margin-bottom: 0;
+            }
+        }
+
+        .right-card-content {
+            position: relative;
+
+            p {
+                font-size: $text-sm;
+                margin-bottom: 0;
+            }
+        }
+
+        .card-number {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+            font-weight: 700;
+            color: rgba(31, 45, 76, 0.08);
+            line-height: 1;
+            z-index: 0;
+            user-select: none;
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+
+        // Mobile
+        .card-number {
+            @include mobile {
+                transform: translateY(20%);
+            }
+        }
+
+        // Desktop
+        $lg: map-get($breakpoints, lg);
+
+        @media (max-width: $lg) {
+            .card-number {
+                transform: translateY(20%)
+            }
+        }
+
+        .card-number p {
+            font-size: clamp(5rem, 6vw, 7rem);
+        }
+
+        .zoom-in {
+            transform: scale(1);
+            transition: transform 0.5s ease-out;
+        }
+
+        &:hover {
+            .zoom-in {
+                transform: scale(1.15);
+            }
+        }
+
+        h5 {
+            font-family: $font_secondary;
+            font-size: $text-lg;
+            font-weight: $fw_semibold;
+        }
+    }
+
+    .main-title h2 {
+        margin: 10px 0;
+    }
+
+    .text-base {
+        padding-bottom: 15px;
+    }
+}
+
+// Donors Funders Page Funder Section
+.funder {
+    .left-box {
+        display: flex;
+        justify-content: flex-end;
+        border-radius: 10px 0 0 10px;
+
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .leftbox-content {
+            padding: 62px;
+
+            @include mobile {
+                padding: 10px;
+            }
+
+            position: relative;
+            z-index: 2;
+
+            h6,
+            h2 {
+                color: $color_white;
+            }
+        }
+
+        @include laptop {
+            border-radius: 0;
+        }
+
+    }
+
+    .right-box {
+        padding: 54px;
+        border-radius: 0 10px 10px 0;
+
+        @include laptop {
+            border-radius: 0;
+            padding: 24px;
+        }
+
+        @include tablet {
+            padding: 20px;
+        }
+
+        @include mobile {
+            padding: 10px;
+        }
+
+        .quote {
+            h4 {
+                font-family: $font_secondary;
+                line-height: 1.6;
+                font-style: italic;
+            }
+        }
+
+        p {
+            font-size: $text-base;
+        }
+
+        .first-paragraph {
+            padding-top: 20px;
+        }
+
+        .quote-end {
+            p {
+                font-size: $text-base;
+                text-transform: uppercase;
+
+                &::before {
+                    content: '';
+                    display: inline-block;
+                    width: 32px;
+                    height: 1px;
+                    background-color: $color_primary;
+                    margin-right: 16px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+// Donors Funders Page Trust Based Funding Section
+.trust-based-funding {
+    h2 {
+        padding-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .box-wrap {
+        .box {
+            h5 {
+                color: $color_dark;
+                font-weight: 600;
+                font-family: $font-secondary;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        .text-box {
+            p {
+                color: $color_teal;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// Donors Funders Page Why Fund IRI Section
+.why-fund {
+    .flowchart-wrapper {
+        .flow-node {
+            width: 100%;
+            max-width: 320px;
+            max-height: 72px;
+            position: relative;
+            padding: 16px 24px;
+
+            &:not(:last-child)::after {
+                content: "";
+                position: absolute;
+                bottom: -45px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 20px;
+                height: 40px;
+                background-image: url('/app/uploads/2026/06/down-arrow.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            h6 {
+                color: $color_white;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $font-secondary;
+                text-transform: capitalize;
+            }
+
+            p {
+                color: $text_gray;
+                font-size: 12px;
+                font-weight: 400;
+                padding-top: 10px;
+            }
+        }
+    }
+
+    .right-box {
+
+        h2,
+        h6,
+        p {
+            color: $color_white;
+        }
+
+        h2 {
+            line-height: 1.2;
+            padding-top: 10px;
+            padding-bottom: 34px;
+        }
+    }
+}
+
+// Inner What we do section
+.wwd-card-section {
+    border-top: 1px solid #E6E6E6;
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 35px 30px 0px;
+
+        @include mobile {
+            padding: 0;
+        }
+
+        .card-number {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+            font-weight: 700;
+            color: rgba(31, 45, 76, 0.08);
+            line-height: 1;
+            z-index: 0;
+            user-select: none;
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+
+        // Mobile
+        .card-number {
+            @include mobile {
+                transform: translateY(20%);
+            }
+        }
+
+        // Desktop
+        $lg: map-get($breakpoints, lg);
+
+        @media (max-width: $lg) {
+            .card-number {
+                transform: translateY(20%)
+            }
+        }
+
+        .card-number p {
+            font-size: clamp(5rem, 6vw, 7rem);
+        }
+
+        .zoom-in {
+            transform: scale(1);
+            transition: transform 0.5s ease-out;
+        }
+
+        &:hover {
+            .zoom-in {
+                transform: scale(1.15);
+            }
+        }
+
+        h5 {
+            font-family: $font_secondary;
+            font-size: $text-lg;
+            font-weight: $fw_semibold;
+        }
+    }
+}
